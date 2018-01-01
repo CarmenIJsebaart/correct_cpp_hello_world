@@ -1,4 +1,6 @@
-main()
+#include <iostream>
+
+int main()
 {
-  // Your code here
+  std::cout << "Hello world\n";
 }
