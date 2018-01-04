@@ -1,6 +1,18 @@
 # correct_cpp_hello_world
 
-[Correct C++](https://github.com/richelbilderbeek/correct_cpp) chapter 'Hello world!'.
+Branch|[Travis CI](https://travis-ci.org)|[Codecov](https://www.codecov.io)
+---|---|---
+master|[![Build Status](https://travis-ci.org/richelbilderbeek/correct_cpp_hello_world.svg?branch=master)](https://travis-ci.org/richelbilderbeek/correct_cpp_hello_world)|[![codecov.io](https://codecov.io/github/richelbilderbeek/correct_cpp_hello_world/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/correct_cpp_hello_world/branch/master)
+
+[Correct C++](https://github.com/richelbilderbeek/correct_cpp) chapter 'Hello world'.
+
+## Goal
+
+ * Write a ['Hello world' program](https://github.com/richelbilderbeek/cpp/blob/master/content/CppHelloWorld.md)
+
+## Prerequisites
+
+ * Understand [how this course works](https://github.com/richelbilderbeek/correct_cpp/blob/master/how_this_course_works.md)
 
 ## Exercise
 
@@ -17,15 +29,14 @@ main()
 
 The text should literally be `Hello world`, followed by newline. 
 
-## Advice
-
- * Do not use `std::endl` [1].
+ * Use (and prefer [1]) [std::cout](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdCout.md) 
+ * Do not use [std::endl](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdEndl.md) [2]
 
 ## External links
 
- * [richelbilderbeek's Hello World page](https://github.com/richelbilderbeek/cpp/blob/master/content/CppHelloWorld.md)
- * [Qt Creator project file used in testing](https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/hello_world/main.pro)
+ * [Download the Qt Creator file `main.pro`](https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/shared/main.pro)
 
 ## References
 
- * [1] [C++ Core Guidelines: SL.io.50: Avoid endl](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-endl)
+ * [1] [C++ Core Guidelines: SL.io.3: Prefer iostreams for I/O](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-streams)
+ * [2] [C++ Core Guidelines: SL.io.50: Avoid endl](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-endl)
